@@ -1,0 +1,135 @@
+ls
+ls -la
+whoami
+sudo
+sudo su
+cat
+nano
+vi
+vim
+touch
+mkdir
+mkdir -p
+rm
+rmdir
+rm -f
+rm -rf 
+cp
+cp -r
+mv
+history
+
+use up arrow or down arrow for previous or next 
+
+type file names first few charcters and give ta it will autometically shows the suggestions
+
+pwd
+cd
+tree
+su (username)
+exit
+init 6
+init 0
+hostname
+ifconfig
+cat /etc/os-release
+which
+shows where the package installed its shows the location
+which httpd
+wget - to download packge from internet
+wget https://mirrors.estointernet.in/videolan/vlc/3.0.3/win64/vlc-3.0.3-win64.exe
+
+curl - for browse the content of the website
+curl http://localhost
+
+
+echo "hello shivam"
+echo hello SHIVAM
+echo "hello SHIVAM" > a.txt
+history > history.txt
+echo "$hostname" > hostname.txt
+
+
+
+
+redirection 
+
+>
+
+thisis redirect the output to other file
+
+sort file1 > sortedfile
+>>
+append the files last line
+
+
+grep
+	grep (word) (location)
+	grep sbin /etc/passwd
+	
+less 
+more
+both less or more or like cat file function
+it shows the result page by page with user intraction
+
+head -shows first ten lines
+head  /etc/passwd
+head -3 /etc/passwd
+
+tail -shows last ten lines
+tail /etc/passwd
+tail -5 /etc/passwd
+
+sort
+
+sort albhapet first letter of a line inthe file
+
+
+
+installation
+
+yum install package name
+yum install httpd -y 
+
+yum install package name
+yum update package name
+yum remove package name
+
+yum list installed
+
+yum list installed | grep httpd*
+
+service commands
+
+service httpd status
+service httpd start
+service httpd restart
+service httpd reload
+service httpd stop
+
+chkconfig httpd on
+chkconfig httpd off
+set the service always running or always stop
+
+systemctl status httpd 
+systemctl start httpd 
+systemctl restart httpd 
+systemctl reload httpd 
+systemctl stop httpd 
+
+systemctl enable httpd
+systemctl disable httpd
+
+
+user
+group
+softlink
+hardlink
+tar
+gz
+yum
+wget
+file / dir permissio
+chmod
+chown
+chgrp
