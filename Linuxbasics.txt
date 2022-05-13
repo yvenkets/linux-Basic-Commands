@@ -23,7 +23,7 @@ use up arrow or down arrow for previous or next
 
 type file names first few charcters and give ta it will autometically shows the suggestions
 
-pwd - present working directory
+pwd - Dispaly the present working directory
 cd - change the directory / or change the working directory one to other
 tree - display the folder structre in tree view (need to install tree package)
 su (username) -switch the user with out log off current user
@@ -57,7 +57,7 @@ redirection >
 its print the output to the file
 
 echo "hello SHIVAM" > a.txt
-history > history.txt
+history > commandshistory.txt
 
 sort filename > sortedfile
 
@@ -66,9 +66,9 @@ the double redirection
 append the contents to files last line
 
 
-grep
-	grep (word) (location)
-	grep sbin /etc/passwd
+grep - it like find the word or pharese in the file or any given location
+Syntax:	grep (word) (location)
+Ex:	grep sbin /etc/passwd
 	
 less 
 more
