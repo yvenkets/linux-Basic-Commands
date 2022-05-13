@@ -1,47 +1,46 @@
-ls
-ls -la
-whoami
-sudo
-sudo su
-cat
-nano
-vi
-vim
-touch
-mkdir
-mkdir -p
-rm
-rmdir
-rm -f
-rm -rf 
-cp
-cp -r
-mv
-history
+ls - To list all hte files and folders on the current directory
+ls -la - To List the hidden files and folders in the current working directory.
+whoami - display the cuurent login user
+sudo - get the temporary admin rights
+sudo su - normal user login to root user
+cat - dispaly the conntent of the fiile
+nano - edit a file using this nano editor
+vi - edit the file using the vi editor
+vim -edit the file using the vi editor
+touch - create a file
+mkdir - create the directory
+mkdir -p - create the directory with its parent directory at single command
+rm - remove file
+rmdir -remove directory
+rm -f - remove file forcefully
+rm -rf - remove the file folder recursively nad forefully
+cp - copy the file or folder
+cp -r - copy the folder if it have contents recurisively
+mv - move the file or folder/ mostly its using for rename
+history - display the last typed commands
 
 use up arrow or down arrow for previous or next 
 
 type file names first few charcters and give ta it will autometically shows the suggestions
 
-pwd
-cd
-tree
-su (username)
-exit
-init 6
-init 0
-hostname
-ifconfig
-cat /etc/os-release
-which
-shows where the package installed its shows the location
-which httpd
+pwd - present working directory
+cd - change the directory / or change the working directory one to other
+tree - display the folder structre in tree view (need to install tree package)
+su (username) -switch the user with out log off current user
+exit -logout user
+init 6 - restart the server
+init 0 - shutdown the server
+hostname - display the server name
+ifconfig - display the ip details of the server
+cat /etc/os-release - display the os name and version details
+which - shows where the package installed its shows the location
+ex: which httpd
+
 wget - to download packge from internet
-wget https://mirrors.estointernet.in/videolan/vlc/3.0.3/win64/vlc-3.0.3-win64.exe
+ex: wget https://mirrors.estointernet.in/videolan/vlc/3.0.3/win64/vlc-3.0.3-win64.exe
 
 curl - for browse the content of the website
-curl http://localhost
-
+ex: curl http://localhost
 
 echo "hello shivam"
 echo hello SHIVAM
