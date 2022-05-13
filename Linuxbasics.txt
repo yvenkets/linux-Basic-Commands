@@ -42,24 +42,28 @@ ex: wget https://mirrors.estointernet.in/videolan/vlc/3.0.3/win64/vlc-3.0.3-win6
 curl - for browse the content of the website
 ex: curl http://localhost
 
-echo "hello shivam"
-echo hello SHIVAM
-echo "hello SHIVAM" > a.txt
-history > history.txt
-echo "$hostname" > hostname.txt
+echo -display the typed content
+ex: echo "hello shivam"
+ex: echo hello SHIVAM
 
+Its also get the system values and store it in variable and print it
+ex: echo $HOSTNAME 
+ex: echo $HOSTNAME > hostname.txt
 
-
-
-redirection 
+redirection >
 
 >
 
-thisis redirect the output to other file
+its print the output to the file
 
-sort file1 > sortedfile
+echo "hello SHIVAM" > a.txt
+history > history.txt
+
+sort filename > sortedfile
+
+the double redirection
 >>
-append the files last line
+append the contents to files last line
 
 
 grep
