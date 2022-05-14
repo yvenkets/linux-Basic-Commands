@@ -1,22 +1,57 @@
 ls - To list all hte files and folders on the current directory
+ex: ls
+ex: ls /home/ubuntu
+
 ls -la - To List the hidden files and folders in the current working directory.
+ex: ls -la
+
 whoami - display the cuurent login user
+
 sudo - get the temporary admin rights
+
 sudo su - normal user login to root user
+
 cat - dispaly the conntent of the fiile
+ex: cat recur.txt
+
 nano - edit a file using this nano editor
+
 vi - edit the file using the vi editor
+
 vim -edit the file using the vi editor
+
 touch - create a file
+ex:touch filename
+
 mkdir - create the directory
+ex: mkdir foldername
+
 mkdir -p - create the directory with its parent directory at single command
+ex: /home/user/1/2/3/4/5/6/7/8/9
+
 rm - remove file
-rmdir -remove directory
+ex: rm filename
+
+rmdir -remove the empty directory
+ex: rmdir foldername
+
 rm -f - remove file forcefully
+ex: rm -f filename
+
 rm -rf - remove the file folder recursively nad forefully
+ex: rm -rf /home/user/
+
 cp - copy the file or folder
-cp -r - copy the folder if it have contents recurisively
+syntax: cp sorce_loaction destianantion_location
+ex: cp /home/user/a.txt /etc/folder/
+
+cp -R - copy the folder if it have contents recurisively
+syntax: cp -R  sorce_loaction destianantion_location
+ex: cp -R /home/users/1/  /home/2/
+
 mv - move the file or folder/ mostly its using for rename
+ex: mv /home/user/1 /home/user/2
+
 history - display the last typed commands
 
 use up arrow or down arrow for previous or next 
