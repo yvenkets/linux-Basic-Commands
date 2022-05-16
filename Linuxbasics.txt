@@ -35,6 +35,13 @@ its looks like this :wq
 
 press enter
 
+if you dont want to save the file or dont want make any changes just press the follwing
+
+:q!
+
+q for quite
+! out
+
 vim -edit the file using the vi editor
 
 touch - create a file
