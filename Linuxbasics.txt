@@ -15,8 +15,17 @@ cat - dispaly the conntent of the fiile
 ex: cat recur.txt
 
 nano - edit a file using this nano editor
+ex: nano venket
+enter some conteent
+ctrl+x for exit
+its ask  do you want save the file
+enter y
+enter again
 
 vi - edit the file using the vi editor
+ex: vi filename
+press insert button
+type some content
 
 vim -edit the file using the vi editor
 
